@@ -19,58 +19,60 @@
         <li><a href="#mision">Misión</a></li>
         <li><a href="#equipo">Equipo</a></li>
         <li><a href="#contacto">Contacto</a></li>
-        <li><a href="#login"class= "btn-iniciar">Sign In</a></li>
-        <li><a href="#register"class="btn-register">Registrar</a></li>
+        <li><a href="#login">Login</a></li>
       </ul>
     </nav>
   </header>
 
- <section id="inicio" class="hero">
-  <div class="escucha-contenedor">
-    <div class="escucha-box">
-      <div class="microfono">🎤</div>
-      <p>Estoy escuchando...</p>
-    </div>
-  </div>
-  <h2>REGÍSTRATE GRATIS EN TECNOSALUD INTELIGENTE.</h2>
-  <p>CUIDA TU SALUD DESDE CASA</p>
-</section>
-
- <section id="mision" class="mision">
-    <h2>NUESTRA MISIÓN</h2>
-    <p>Proveer soluciones tecnológicas accesibles para el cuidado preventivo de la salud mediante inteligencia artificial, asistentes por voz y análisis de datos.</p>
+  <!-- cara uno, registro -->
+  <section id="inicio" class="hero">
+    <h2>REGÍSTRATE GRATIS EN TECNOSALUD INTELIGENTE.</h2>
+    <p>CUIDA TU SALUD DESDE CASA</p>
+    <button id="btn-escucha">Estoy escuchando...</button>
   </section>
 
- <section id="funciones" class="funciones">
+  <!-- cara 2, funcioness-->
+  <section id="funciones" class="funciones">
     <h2>FUNCIONES</h2>
     <div class="cards">
-      <div class="card texto-normal">Diagnóstico</div>
-      <div class="card texto-normal">Asistencia con IA</div>
-      <div class="card texto-normal">Agendar Cita</div>
+      <div class="card">Diagnóstico</div>
+      <div class="card">Asistencia con IA</div>
+      <div class="card">Agendar Cita</div>
     </div>
   </section>
 
-  <section id="equipo" class="equipo">
-    <h2>EQUIPO</h2>
-    <div class="miembros">
-      <div class="miembro">Mathias</div>
-      <div class="miembro">Daniela</div>
-      <div class="miembro">Mario</div>
-      <div class="miembro">Oscar</div>
+  <!-- cara 3, aun por mejorar-->
+  <section id="mision" class="mision">
+    <div class="mision-box">
+      <h2>NUESTRA MISION</h2>
+      <p>
+        Desarrollar soluciones tecnológicas innovadoras que integren inteligencia artificial, modelado computacional y asistencia por voz para mejorar el acceso a la salud, promoviendo la detección temprana y la prevención de enfermedades de manera personalizada, accesible y eficaz.
+      </p>
+    </div>
+
+    <div class="equipo-box">
+      <h2>EQUIPO</h2>
+      <div class="miembros">
+        <div class="miembro">Miembro 1</div>
+        <div class="miembro">Miembro 2</div>
+        <div class="miembro">Miembro 3</div>
+        <div class="miembro">Miembro 4</div>
+      </div>
+    </div>
+
+    <div class="contacto-box">
+      <h2>CONTACTO</h2>
+      <form>
+        <input type="text" placeholder="Nombre" />
+        <input type="email" placeholder="Correo" />
+        <input type="text" placeholder="Asunto" />
+        <textarea placeholder="Mensaje"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
     </div>
   </section>
 
-  <section id="contacto" class="contacto">
-    <h2>CONTACTO</h2>
-    <form>
-      <input type="text" placeholder="Nombre" />
-      <input type="email" placeholder="Correo" />
-      <input type="text" placeholder="Asunto" />
-      <textarea placeholder="Mensaje"></textarea>
-      <button type="submit">Enviar</button>
-    </form>
-  </section>
-
+  <!-- Login -->
   <section id="login" class="login">
     <h2>INICIA SESIÓN</h2>
     <form>
@@ -83,7 +85,6 @@
       </div>
     </form>
   </section>
-
 
   <script src="assets/scripts/script.js"></script>
 </body>
