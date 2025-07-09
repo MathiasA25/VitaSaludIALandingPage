@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diagnóstico - Tecnosalud Inteligente</title>
+  <link rel="stylesheet" href="assets/styles/style.css" />
+  
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="assets/images/LOGO.png" alt="Logo Tecnosalud" />
+      <h1>Diagnóstico</h1>
+    </div>
+    <nav>
+      <a href="Funciones.html">← Volver a Funciones</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Herramienta de Diagnóstico</h2>
+    <p>Selecciona tus síntomas para obtener un análisis preliminar:</p>
+    <form id="form-diagnostico">
+      <label><input type="checkbox" name="sintomas" value="fiebre"> Fiebre</label>
+      <label><input type="checkbox" name="sintomas" value="tos"> Tos</label>
+      <label><input type="checkbox" name="sintomas" value="fatiga"> Fatiga</label>
+      <label><input type="checkbox" name="sintomas" value="dolor"> Dolor muscular</label>
+      <button type="submit">Analizar</button>
+    </form>
+  </main>
+
+  <script>
+    document.getElementById('form-diagnostico').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Diagnóstico generado. Consulta con un especialista si los síntomas persisten.');
+    });
+  </script>
+</body>
+</html>

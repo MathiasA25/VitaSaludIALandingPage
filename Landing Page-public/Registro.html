@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registrarse</title>
+  <link rel="stylesheet" href="assets/styles/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body class="pagina-asistencia">
+  <header>
+    <h1><img src="assets/images/LOGO.png" alt="Logo"> Registro</h1>
+    <a href="index.html">← Volver al inicio</a>
+  </header>
+
+  <main>
+    <section class="registro">
+      <h2>REGISTRO</h2>
+      <form id="registro-form">
+        <input type="text" placeholder="Nombre completo" required />
+        <input type="text" placeholder="Nombre de usuario" required />
+        <input type="email" placeholder="Correo electrónico" required />
+        <input type="tel" placeholder="Teléfono" />
+        <input type="password" placeholder="Contraseña" required />
+        <input type="password" placeholder="Confirmar contraseña" required />
+
+        <label style="color: white; font-size: 14px; text-align: left;">
+          <input type="checkbox" required />
+          Acepto los <a href="#" style="color: #fff; text-decoration: underline;">términos y condiciones</a>
+        </label>
+
+        <button type="submit">Registrarse</button>
+      </form>
+    </section>
+  </main>
+  <script src="assets/scripts/script.js"></script>
+</body>
+</html>

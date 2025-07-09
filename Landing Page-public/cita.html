@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agendar Cita</title>
+  <link rel="stylesheet" href="assets/styles/style.css" />
+</head>
+<body>
+  <header>
+    <h1><img src="assets/images/LOGO.png" alt="Logo"> Agendar Cita</h1>
+    <a href="Funciones.html">← Volver a Funciones</a>
+  </header>
+  <main>
+    <h2>Reserva tu cita médica</h2>
+    <form onsubmit="event.preventDefault(); alert('Cita registrada exitosamente.');">
+      <input type="text" placeholder="Nombre completo" required />
+      <input type="email" placeholder="Correo electrónico" required />
+      <input type="date" required />
+      <select required>
+        <option value="">Seleccione especialidad</option>
+        <option>Medicina general</option>
+        <option>Pediatría</option>
+        <option>Dermatología</option>
+        <option>Psicología</option>
+      </select>
+      <button type="submit">Agendar</button>
+    </form>
+  </main>
+</body>
+</html>
